@@ -283,11 +283,22 @@ a{
 .container-p p{
     text-align: start;
     font-size: 2rem;
+    color: #027000;
+}
+
+.container-p span{
+    color: #FAF014;
 }
 .container-p button{
+    color: #027000;
+    border: 1px solid #FAF014;
     position:absolute;
     bottom:150px;
     right: 22%; 
     width: 60%;
     font-size: 2rem;
+}
+
+.container-p button:hover{
+    background-color: #FAF014;
 }
