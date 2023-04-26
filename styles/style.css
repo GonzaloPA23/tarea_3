@@ -259,6 +259,15 @@ a{
     font-size: 1.9rem;
 }
 
+
+.container-payment section:nth-child(n + 2){
+    background-color: #FAF014;
+}
+
+.container-payment section:nth-child(3n + 1){
+    background-color: #027000;
+}
+
             /* Summary */
  #font-small{
     font-size: 2.2rem;
