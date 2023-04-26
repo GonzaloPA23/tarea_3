@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Archivo para los estilos -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://kit.fontawesome.com/c93ec55e29.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container--global">
+        <!-- Desarrollo de la cabecera -->
+      <header>
+        <nav class="container--options--header">
+          <button>Back</button>
+          <a href="index.html">
+            <img src="images/Little Lemmon.svg" alt="Logo">
+          </a>
+          <div>
+            <button>
+                Cart
+            </button>
+          </div>
+        </nav>
+      </header>
+      <!-- Interface login complete  -->
+      <div class="container-all-login">
+        <!-- Title of the login -->
+        <div class="title-login">
+            <h2>Welcome to</h2>
+            <h2>Little Lemmon</h2>
+        </div>
+        <!-- Forms with inputs user, password and button login -->
+        <section class="frm-login">
+            <form>
+                <!-- USER -->
+                <div class="box-items">
+                    <span>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="User" placeholder="User" required>
+                    </span>
+                </div>
+                <br><br>
+                <!-- PASSWORD -->
+                <div class="box-items">
+                    <span>
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" name="Password" placeholder="Password" required>
+                    </span>       
+                </div>
+                <!-- BUTTON SUBMIT -->
+                <div class="container-btn-submit">
+                    <button type="button" name="Ingresar" class="btn-login">LOGIN</button>
+                </div>
+            </form> 
+        </section> 
+        <!-- Extra paragraph -->
+        <p id="text-altern">Not an account yet? <a href="#">Create one here</a></p>
+      </div>
+    </div>
+  </body>
+</html>
